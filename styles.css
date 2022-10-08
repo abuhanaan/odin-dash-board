@@ -1,0 +1,190 @@
+body {
+    
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    height: 100vh;
+    
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.brand {
+    margin-left: 1rem;
+    color: white;
+    font-size: 1em;
+}
+
+.dash-icon {
+    margin-right: 0.5rem;
+    size: 1rem;
+}
+
+.sidebar ul,
+.sidebar li {
+    list-style-type: none;
+    color: white;
+    font-size: small;
+}
+
+.sidebar {
+    padding: 15px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+    background-color: #0369a1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 6fr;
+}
+
+.header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    
+    background-color: #f8fafc;
+    display: inline-grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-template-rows: 1fr 2fr; */
+    gap: 5px;
+}
+
+.header .search {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    font-size: small;
+}
+
+.header .search .icon {
+    grid-column: 1 / 2;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.header .search .search_box {
+    margin-top: 5px;
+    grid-column: 2 / 3;
+    
+}
+
+.header .search .search_box input {
+    height: 15px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #9ca3af;
+}
+
+.header .right-corner {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.header .right-corner .icons {
+    grid-column: 1 / 2;
+    justify-self: right;
+    margin-top: 5px;
+}
+
+.header .right-corner .icons i {
+    margin-right: 5px;
+}
+
+.header .right-corner .user_RC {
+    grid-column: 2 / 3;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.header .user_info {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    /* gap: 2px; */
+    line-height: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.header .user_info .image {
+    
+    margin-left: 15px;
+    grid-column: 1 / 1;
+}
+
+.header .user_info .text {
+    grid-column: 2 / 3;
+}
+
+.header .buttons {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+.header .buttons .button {
+    font-size: 10px;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #0369a1;
+    color: #f8fafc;
+}
+
+.header .buttons .new {
+    grid-column: 1/2;
+}
+
+.header .buttons .upload {
+    grid-column: 2/3;
+}
+
+.header .buttons .share {
+    grid-column: 3 / 4;
+}
+
+.header .search i {
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.header .search input {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.header .right-corner .user_RC {
+    font-size: 12px;
+}
+
+.header .user_info .greeting {
+    font-size: 10px;
+}
+
+.header .user_info .user {
+    font-size: 20px;
+}
+
+.input {
+    border-radius: 5px;
+}
+
+.main {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #9ca3af;
+}
+
