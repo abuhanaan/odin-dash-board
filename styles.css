@@ -186,5 +186,28 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: #9ca3af;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* gap: 5px; */
 }
 
+.main .projects {
+    grid-column: 1 / 2;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    /* gap: 5px; */
+}
+
+.main .projects p {
+    margin-left: 15px;
+}
+
+.main .projects .row {
+    margin-left: 5px;
+    font-size: small;
+    line-height: 15px;
+}
+
+.main .announcements {
+    grid-column: 2 / 3;
+}
